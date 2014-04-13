@@ -5,7 +5,6 @@ Auto-Versioning tool to track changes in any folder or file.
 
 Uses Git to track file revisions. Git repository is created and Auto-Commits made at configurable intervals.
 
-
 (Note : This is a rudimentary initial cut involving running Java files manually)
 
 
@@ -29,7 +28,6 @@ filePath - The path of the folder/file to be traced, relative to repoPath.
 
 
 
-
 To review versions of the tracked folder/file :
 
 
@@ -40,3 +38,12 @@ repoPath  - Parent of the tracked folder. .git folder should be inside this.
 filePath - Path to the file to be read relative to repoPath
 
 numberOfPrevVersions - The number of file revisions to be read.
+
+
+Dependencies :
+
+Git needs to be installed. 
+
+The jar files in lib folder need to be in the classpath.
+
+Built with Java 7
